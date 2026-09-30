@@ -1,0 +1,22 @@
+Thumbs.db
+.DS_Store
+desktop.ini
+*.tmp
+~$*
+
+# Локальная сборка справки из dev-репозитория, в выкладке не нужна
+/scripts/
+
+# Рабочие файлы Solo Dev Hub и входящие от контрагентов - в выкладку не идут
+/docs/todo.md
+/docs/done.md
+/docs/bug-reports.md
+/docs/backend-requirements/
+/docs/client-requirements/
+/docs/microservice-requirements/
+/docs/server-requirements/
+/docs/server-announcements/
+/docs/microservice-announcements/
+/docs/InOutBox/
+/docs/sdh_skills/
+/CLAUDE.md
