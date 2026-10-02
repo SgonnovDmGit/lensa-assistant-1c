@@ -40,3 +40,6 @@ docs/InOutBox/
 docs/superpowers/
 docs/sdh_skills/
 # --- solo-dev-hub:end ---
+
+# Кадры для лендинга: передаются отдельно, в публичную выкладку не идут
+/docs/for-landing/
