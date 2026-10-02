@@ -20,3 +20,23 @@ desktop.ini
 /docs/InOutBox/
 /docs/sdh_skills/
 /CLAUDE.md
+
+# --- solo-dev-hub:begin ---
+.env
+/CLAUDE.*
+.claude/
+docs/todo.md
+docs/done.md
+docs/project.md
+docs/bug-reports.md
+docs/backend-requirements/
+docs/client-requirements/
+docs/microservice-requirements/
+docs/microservice-announcements/
+docs/server-requirements/
+docs/server-announcements/
+docs/codex/
+docs/InOutBox/
+docs/superpowers/
+docs/sdh_skills/
+# --- solo-dev-hub:end ---
