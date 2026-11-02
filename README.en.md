@@ -63,11 +63,24 @@ Three things that usually keep AI from taking off in 1C - and what happens here.
   the answer as a card. One button installs the file into "Additional reports and data
   processors".
 - **Does not freeze 1C.** The answer runs in the background and the window stays responsive.
-  You can type while the assistant is answering: the message queues up and goes next.
+  Press Enter while the assistant is answering to send a clarification into the current turn.
+  During background execution you can open another conversation and return to the completed answer.
 - **Remembers dialogs.** Finds a past conversation by words inside the messages, and projects
-  in the dialog properties keep them in order.
+  in dialog properties and the header filter keep them in order. You can create or delete a
+  project; deleting it preserves the conversations.
+- **Reads Word and Excel files.** Attach `.docx`, `.doc`, `.xlsx` and `.xls` files up to
+  20 MB. Files from an answer can be attached to database objects through supported SSL functions.
+- **Asks a clarifying question.** Choose an option in the card or type your own answer -
+  the neural network continues the same turn.
+- **Settings and feedback inside the chat.** Tabs for connection, subscription, updates and
+  appearance; send feedback or report a problem directly from the processor.
 - **The neural network that fits the task.** Claude, GPT, Gemini, DeepSeek and others - chosen
   in the input line.
+
+While a question from the neural network is waiting for an answer, switching dialogs remains
+unavailable, including in background mode. After reopening, the history shows the question and
+options, but does not yet restore the accepted-answer marker. See the [change log](docs/ЧтоНового.md)
+for the other changes and limitations (in Russian).
 
 ## What it looks like
 
